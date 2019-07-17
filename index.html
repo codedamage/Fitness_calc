@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gym Meal | Главная</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#75ac6c">
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#75ac6c">
+    <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#75ac6c">
+    <link href="assets/styles/app.min.css" rel="stylesheet">
+    <script src="assets/scripts/libs/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="section section_full section_dark js-dark-section">
+            <div class="container container_big section__container">
+                <div class="section__center-wrap section__center-wrap_padding_top_100">
+                    <div class="program-generator">
+                        <div class="program-generator__title">Подберите для себя<br> программу питания</div>
+                        <form class="program-generator__form" action="#" method="post">
+                            <div class="program-generator__box"><select class="select js-select" data-class="choices_light" name="sex">
+                                    <option value="male">Мужчина</option>
+                                    <option value="else">Женщина</option>
+                                </select></div>
+                            <div class="program-generator__box program-generator__box_size_1"><input class="input input_light" name="weight" placeholder="Вес" type="text" /></div>
+                            <div class="program-generator__box program-generator__box_size_1"><input class="input input_light" name="height" placeholder="Рост" type="text" /></div>
+                            <div class="program-generator__box program-generator__box_size_1"><input class="input input_light" name="age" placeholder="Возраст" type="text" /></div>
+                            <div class="program-generator__box program-generator__box_size_2"><select class="select js-select" data-class="choices_light" name="goal">
+                                    <option value="0.6">Быстро похудеть</option>
+                                    <option value="0.8">Похудеть</option>
+                                    <option value="1">Поддежать форму</option>
+                                    <option value="1.2">Набрать массу</option>
+                                </select></div>
+                                <div class="program-generator__box program-generator__box_size_2"><select class="select js-select" data-class="choices_light" name="load">
+                                    <option value="1.2">Минимальная</option>
+                                    <option value="1.375">Легкая</option>
+                                    <option value="1.55">Средняя</option>
+                                    <option value="1.725">Высокая</option>
+                                    <option value="1.9">Очень высокая</option>
+                                </select></div>
+<!--                             <div class="program-generator__box program-generator__box_size_2"><select class="select js-select" data-class="choices_light">
+                                    <option value="">Без лактозы</option>
+                                    <option value="">С лактозой</option>
+                                </select></div> -->
+                        </form>
+                        <div class="program-generator__button"><button class="button button_light" type="button">Рассчитать рацион</button></div>
+
+
+<p style="
+    text-align: center;
+    margin-top: 30px;
+">Калории: <b class="cals">---</b></p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="section__bg"><img src="assets/images/backgrounds/1.jpg" alt="Партнерство" /></div>
+        </div>
+    </div>
+    <script src="assets/scripts/app.min.js"></script>
+    <script src="assets/scripts/main.js"></script>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
